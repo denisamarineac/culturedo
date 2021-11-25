@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" >
+       <link href="https://fonts.googleapis.com/css?family=Raleway:600,900" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="utf8">
+      <meta name="author" content="Denisa Marineac">
+      <meta name="title" content="Culturedo - Festival de artă și cultură">
+      <meta name="description" content="Un festival perfect pentru iubitorii de cultură.">
+      <meta name="keywords" content="arta, cultura, culturedo, romania, festival de cultura">
+      <meta property='og:title' content='Culturedo - Festival de artă și cultură'/>
+      <meta property='og:description' content='Un festival perfect pentru iubitorii de cultură.'/>
+      <meta name="DC.title" content="Culturedo - Festival de artă și cultură" />
+      <meta name="DC.description" content="Un festival perfect pentru iubitorii de cultură." />
+      <meta name="dc.language" content="ro">
+      <meta property='og:site_name' content='Culturedo - Festival de artă și cultură'/>
+      <meta name="REVISIT-AFTER" content="2 DAYS" >
+      <meta name="RATING" content="GENERAL" >
+      <meta name="Robots" content="All">
+      <title>Culturedo - Festival de artă și cultură</title>
+		 <style type="text/css">
+			
+			.navbar img{
+				width: 60px;
+				height: 60px;
+				position: absolute;
+				left: 50%;
+                top: 145px;
+                content: "";
+                margin-left: 147px;
+
+			}
+			.navbar h1{
+
+                font-family: fantasy;
+                font-size: 90px;
+				text-align: center;
+
+			}
+			.navbar h2{
+				text-align: center;
+				font-family: cooperplate;
+			}
+			.content-wrapper img{
+				width:100%;
+				height: 100%;
+
+			}
+			.content-wrapper p3{
+				position: absolute;
+				font-family: cursive;
+				font-size: 60px;
+				left: 23%;
+				top: 83%;
+				color: whitesmoke;
+			}
+			.content-wrapper p{
+				position: absolute;
+				font-family:courier new;
+				font-size: 25px;
+				left: 26%;
+				top: 94%;
+				color: ghostwhite;
+			}
+			.content-wrapper p1{
+				position: absolute;
+				font-family: papyrus;
+				font-size: 40px;
+				left: 40%;
+				top: 105%;
+				color: white;
+
+			}
+			.content-wrapper h2{
+				position: absolute;
+				font-family: Brush Script MT;
+				font-size: 70px;
+				left: 5%;
+				top:120%;
+			}
+			.content-wrapper p4{
+				position: absolute;
+				font-family: times new roman;
+				font-size: 20px;
+				left: 5%;
+				top: 140%;
+			}
+
+         .titlu-chenare h2{
+            font-family: fantasy;
+            font-size: 60px;
+            text-align: center;
+
+         }
+        {
+            box-sizing: border-box;
+         }
+         .col {
+            background-color:black;
+            display: inline-block;
+            width: 40%;  
+            margin:8px;  
+            padding: 20px;
+            min-height:500px; 
+            border-style: dotted; 
+            border-color: grey;
+         }
+         .row:after {
+            content: "";
+            display: table;
+            clear: both;
+         }
+         .redimensionare-img {
+            display: block;
+            width: auto;
+            height: auto;
+            object-fit: cover;
+            width: 100%;
+            height: 400px;
+         }
+         .titlu-caseta{
+            color: whitesmoke;
+            text-align:center;
+         }
+         .subtitlu-caseta {
+            line-height:0.3em;
+            text-align:left;
+            color:white;
+         }
+         .paragraf-caseta {
+            color:white;
+            text-align:center;
+         }
+         .lista{
+            list-style: none;
+         }
+	.col h3{
+      color: white;
+      text-align: left;
+      font-family: papyrus;
+   }
+   .event-container {
+  font-family: "Roboto", sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.event-container h3.year {
+   font-family: papyrus;
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 1px solid #b1b1b1;
+}
+
+.event-container .event {
+  box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  border-radius: 8px;
+  margin: 32px 0;
+}
+
+.event .event-left {
+  background: black;
+  min-width: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eee;
+  padding: 8px 48px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px 0 0 8px;
+}
+
+.event .event-left .date {
+  font-size: 56px;
+}
+
+.event .event-left .month {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.event .event-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 24px;
+}
+
+.event .event-right h3.event-title {
+  font-size: 24px;
+  margin: 24px 0 10px 0;
+  color: #218bbb;
+  text-transform: uppercase;
+}
+
+.event .event-right .event-timing {
+  background: #EBEDEF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  padding: 8px;
+  border-radius: 16px;
+  margin: 24px 0;
+  font-size: 14px;
+}
+
+.event .event-right .event-timing img {
+  height: 20px;
+  padding-right: 8px;
+}
+
+@media (max-width: 550px) {
+  .event {
+    flex-direction: column;
+  }
+
+  .event .event-left {
+    padding: 0;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .event .event-left .event-date .date,
+  .event .event-left .event-date .month {
+    display: inline-block;
+    font-size: 24px;
+  }
+
+  .event .event-left .event-date {
+    padding: 10px 0;
+  }
+
+}
+.container
+{
+  width: 100%;
+  height: 100%;
+}
+.container h2{
+   font-size: 50px;
+   text-align: center;
+   font-family: cursive;
+}
+.trans
+{
+  transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+}
+.top
+{
+  display: flex;
+  width: 80vw;
+  height: 80vh;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10vh;
+}
+.top ul
+{
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  box-sizing: border-box;
+}
+.top ul li
+{
+  position: relative;
+  float: left;
+  width: 25%;
+  height: 25%;
+  overflow: hidden;
+}
+
+.top ul li::before
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  content: '';
+  color: white;
+  opacity: 0.4;
+  text-align: center;
+  box-sizing: border-box;
+  pointer-events: none;
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+.top ul li:hover::before
+{
+  opacity: 0;
+  background-color: rgba(0,0,0,0.90);
+}
+.top ul li img
+{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.lightbox
+{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.75);
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+}
+.lightbox img
+{
+  max-width: 90%;
+  max-height: 80%;
+  position: relative;
+  top: -100%;
+  /* Transition */
+  transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+}
+.lightbox:target
+{
+  outline: none;
+  top: 0;
+  opacity: 1;
+  pointer-events: auto;
+  transition: all 1.2s ease;
+  -moz-transition: all 1.2s ease;
+  -ms-transition: all 1.2s ease;
+  -o-transition: all 1.2s ease;
+  -webkit-transition: all 1.2s ease;
+}
+.lightbox:target img
+{
+  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.socializare h2{
+   font-size: 70px;
+   text-align: center;
+   font-family: Brush Script MT;
+}
+   
+			
+		</style>
+
+	</head>
+	<body background="gray">
+		<nav class="navbar">
+			<img src="iconite/logo.png">
+					<hr width="100%" color="black" size="30px">
+				<h1>Culturedo</h1>
+						<hr width="100%" color="black" size="10px">
+				<h2>Festival de artă și cultură (5-7 NOIEMBRIE)</h2>
+				<hr width="100%" color="black" size="10px">
+           
+		</nav>
+		
+				<div class="content-wrapper">
+					<img src="eveniment/nou.jpg" alt="img" width="100%" height="110%" align="0">
+					<p3>"Culture opens the sense of beauty"</p3>
+					<p>Haide să ne bucurăm împreună de lucruri frumoase  </p>
+					<p1>Festivalul Culturedo</p1>
+					<h2>Despre noi</h2>
+					<p4>A început din pasiune în 2018 și s-a transformat în unul dintre cele mai mari evenimente anule din Cluj. Festivalul de artă Culturedo a primit atenția publicului datorită: muzicii bune, activităților interactive, pieselor de teatru deosebite, și, chiar a experiențelor gastronomice. În fiecare toamnă rezervăm un weekend special pentru a pune în lumină lucrurile frumoase ce se află în jurul nostru. Prin modul său de manifestare, arta poate fi considerată și ca o formă de cunoaștere. Așadar, te așteptăm să vii la festival pentru a-ți îmbogății cunoașterea artistică. Hai alături de noi pentru a scrie povestea următoarei ediții! </p4>
+
+    </div>
+
+    <div class="titlu-chenare">
+      
+      <h2>Ediția din 2021 vine cu:</h2>
+   </div>
+
+<center>
+      <div class="row">
+      <div class="col" >
+         <h1 class="titlu-caseta">Teatru</h1>
+         <img class="redimensionare-img" src="eveniment/performance1.jpg" alt="festival ">
+         <p class="paragraf-caseta">Ce poate fi mai frumos decât un spectacol despre dragoste, dramă sau comedie? Emoțiile transmise în timp real de către jocul actorilor, poveste sau de decor nu se pot compara cu nimic. Teatrul este un concept atât de simplu şi, totuşi, atât de greu de definit. Pentru fiecare dintre noi teatrul are o altă valoare, însă în esență el este ,,viaţă expusă într-o vitrină". Noi ți-am pregătit o serie de piese care sigur te vor cuceri.<br>
+            <br>
+         </p>
+              <h3>Lista de piese de teatru:</h3>
+         <ul class="lista">
+            <li>
+               <h2 class="subtitlu-caseta">Pune-ți o dorință! - Lito Club</h2>
+            </li>
+            <li>
+               <h2 class="subtitlu-caseta">Singuri acasă - Androdino</h2>
+            </li>
+            <li>
+               <h2 class="subtitlu-caseta">Clubul poeților visători - Menestur</h2>
+            </li>
+         </ul>
+      </div>
+
+      <div class="col">
+         <h1 class="titlu-caseta">Muzică</h1>
+         <img class="redimensionare-img" src="eveniment/concert1.jpg" alt="festival">
+         <p class="paragraf-caseta">Pentru că inevitabil muzică ne întregește existența și face parte din viața noastră cotidiană, ce-ar putea fi mai plăcut decât să marcăm începutul lunii noiembrie cu o serie de concert trăite ‘pe viu’?Toamna această răsuna muzică rock, pop și clasică la CULTUREDO. Deși muzica este magică indiferent de felul în care este transmisă, nimic nu se compară cu sentimentul pe care îl ai la auzirea instrumentelor și vocilor live.  <br>
+            <br>
+         </p>
+         <h3>Lista de formații:</h3>
+         <ul class="lista">
+            <li>
+               <h2 class="subtitlu-caseta">Slippery Summer</h2>
+            </li>
+            <li>
+               <h2 class="subtitlu-caseta">Bobatron</h2>
+            </li>
+            <li>
+               <h2 class="subtitlu-caseta">McAngel</h2>
+            </li>
+         </ul>
+      </div>
+    </center>
+  
+
+    <div class="event-container">
+
+      <h3 class="year">Calendar festival</h3>
+
+      <div class="event">
+        <div class="event-left">
+          <div class="event-date">
+            <div class="date">5</div>
+            <div class="month">Noiembrie</div>
+          </div>
+        </div>
+
+        <div class="event-right">
+          <h3 class="event-title">Ziua 1</h3>
+
+          <div class="event-timing">
+            <img src="time.png" alt="" /> 19:30
+          </div>
+          <p>Piesa de teatru "Pune-ți o dorință!" - Lito Club</p>
+          <div class="event-timing">
+            <img src="time.png" alt="" /> 20:45
+          </div>
+          <p>Formația Slippery Summer</p>
+        </div>
+      </div>
+
+      <div class="event">
+        <div class="event-left">
+          <div class="event-date">
+            <div class="date">6</div>
+            <div class="month">Noiembrie</div>
+          </div>
+        </div>
+
+        <div class="event-right">
+          <h3 class="event-title">Ziua 2</h3>
+
+          <div class="event-timing">
+            <img src="time.png" alt="" /> 18:30 
+          </div>
+          <p>Piesa de teatru "Singuri acasă"- Androdino</p>
+          <div class="event-timing">
+            <img src="time.png" alt="" /> 20:15 
+          </div>
+              <p>Formația Bobatron</p>
+        </div>
+      </div>
+
+      <div class="event">
+        <div class="event-left">
+          <div class="event-date">
+            <div class="date">7</div>
+            <div class="month">Noiembrie</div>
+          </div>
+        </div>
+
+        <div class="event-right">
+          <h3 class="event-title">Ziua 3</h3>
+
+          <div class="event-timing">
+            <img src="time.png" alt="" /> 20:00 
+          </div>
+          <p>Formația McAngel</p>
+            <div class="event-timing">
+            <img src="time.png" alt="" /> 22:00 
+          </div>
+            <p>Piesa de teatru "Clubul poeților visători" - Menestur</p>
+        </div>
+      </div>
+
+      </div>
+    </div>
+    
+     
+<div class="container">
+    <h2>Retrospectivă</h2>
+  <div class="top">
+      <ul>
+          <li><img src="eveniment/audience6.jpg"></li>
+            <li><img src="eveniment/dj.jpg"></li>
+          <li><img src="eveniment/teatruu.jpg"></li>
+            <li><img src="eveniment/performance.jpg"></li>
+             <li><img src="eveniment/audience4.jpg"></li>
+            <li><img src="eveniment/theater1.jpg"></li>
+            <li><img src="eveniment/piesa.jpg"></li>
+            <li><img src="eveniment/artistic.jpg"></li>
+            <li><img src="eveniment/audience.jpg"></li>
+            <li><img src="eveniment/spectacol.jpg"></li>
+            <li><img src="eveniment/butoane.jpg"></li>
+            <li><img src="eveniment/concert.jpg"></li>
+            <li><img src="eveniment/film.jpg"></li>
+            <li><img src="eveniment/audience5.jpg"></li>
+            <li><img src="eveniment/copil.jpg"></li>
+            <li><img src="eveniment/performance2.jpg"></li>
+
+        </ul>
+     
+    </div>
+</div>
+            <hr width="100%" color="black" size="5px">
+  <div class="socializare">
+   <h2>Stay social</h2>
+</div>
+<center>
+   <a href="https://www.facebook.com/">
+<img src="iconite/facebook.png" alt="img" width="3%" height="3%" align="0">
+</a>
+   <a href="https://www.instagram.com/">
+<img src="iconite/instagram.png" alt="img" width="3%" height="3%" align="0">
+</a>
+   <a href="https://www.tiktok.com/">
+<img src="iconite/tiktok.png" alt="img" width="3%" height="3%" align="0">
+</a>
+   <a href="https://twitter.com/">
+<img src="iconite/twitter.png" alt="img" width="3%" height="3%" align="0">
+</a>
+   <a href="https://ro.pinterest.com/">
+<img src="iconite/pinterest.png" alt="img" width="3%" height="3%" align="0">
+</a>
+</center>
+
+	</body>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</html>
